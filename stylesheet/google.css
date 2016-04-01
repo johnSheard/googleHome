@@ -1,0 +1,169 @@
+* {margin:0;padding:0;} 
+
+html, body{
+	overflow:hidden;
+	height: 100%;
+}
+
+#wrap {min-height: 100%;}
+
+.container {overflow:auto;
+	padding-bottom: 40px;}  /* must be same height as the footer */
+
+#footer {
+	background-color: #F2F2F2;
+	position: relative;
+	margin-top: -40px; /* negative value of footer height */
+	height: 180px;
+	clear:both;} 
+
+a{
+	font-family:Arial,sans-serif;font-size:13px;text-decoration:none;color:#404040
+}
+
+a:hover{
+	text-decoration:underline
+}
+
+.nav:first-child{
+		font-family:Arial,sans-serif;font-size:13px;text-decoration:none;color:#A1A1A1
+}
+
+
+.nav{
+	vertical-align: middle;
+}
+
+.nav > li{
+	position: relative;
+	float: right;
+	padding-right: 1.5em;
+	padding-top: 2em;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+ul li:nth-child(4),ul li:nth-child(5),ul li:nth-child(6){
+	min-width: 30px;
+	min-height: 30px;
+}
+
+.bell, .apps{
+	width:30px;height:30px;
+	margin-top: 2em;
+}
+
+.profile{
+	width: 32px;
+	height: 32px;
+	border-bottom-left-radius:50%:
+	border-bottom-right-radius:50%;
+	border-top-left-radius:50%;
+	border-top-right-radius:50%;
+}
+
+.google-search{
+	margin-top: 150px;
+}
+
+.google-search > img{
+	width: 269px;
+	height: 95px;
+	margin-bottom: 40px;
+	display: block;
+}
+
+.mic{
+	display:inline-block;
+	float:right;
+	width:45px;height:27px;
+	border-top:1px solid #dcdcdc;
+	border-right:1px solid #dcdcdc;
+	border-bottom:1px solid #dcdcdc;
+	border-left:none
+}
+
+.mic img{
+	padding-top:2px;
+	height:25px;
+	width:auto;
+	margin:0
+}
+
+.search-bar{
+	margin-bottom:15px;
+	width:586px;
+	height:40px;
+	top: 320px;
+	right: 1251px;
+	bottom: 360px;
+}
+
+input[type=text]{font-size:15px;font-weight:bold;padding:0 0 0 4px;display:inline-block;float:left;width:535px;height:27px;border-top:1px solid #dcdcdc;border-right:none;border-bottom:1px solid #dcdcdc;border-left:1px solid #dcdcdc}
+input[type=text]:focus{outline:none;border-top:1px solid #4285f4;border-right:none;border-bottom:1px solid #4285f4;border-left:1px solid #4285f4}
+
+input[type=submit]{
+	margin-right:8px;
+	border:1px solid #dcdcdc;
+	border-color:rgba(0,0,0,0.1);
+	color:#444 !important;
+	font-size:11px;
+	background:#f5f5f5;
+	background:-webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+	padding:8px 10px;
+	font-weight:bold;
+	-webkit-border-radius:2px;
+	border-radius:2px
+}
+
+input[type=submit]:hover{
+	border-color:#c6c6c6;
+	color:#222 !important;
+	-webkit-box-shadow:0 1px 0 rgba(0,0,0,0.15);
+	box-shadow:0 1px 0 rgba(0,0,0,0.15);
+	background:#f8f8f8;
+	background:-webkit-linear-gradient(top, #f8f8f8, #f1f1f1)
+}
+
+input[type=submit]:focus{
+	outline:none
+}
+
+
+
+.externalLinks > li{
+	padding: 0.5em;
+	padding-top: 0.52em;
+	margin-right: 10px;
+	margin-bottom: 100px;
+	display: inline-block;
+}
+
+.externalLinks:first-child{
+	padding-left: 1.5em;
+}
+
+.rightLink{
+	position: relative;
+	float: right;
+}
+
+#useCom{
+	padding-right: 1.5em;
+}
+
+
+
+/*
+
+.search-bar{margin-bottom:15px;width:570px;height:29px}input[type=text]{font-size:15px;font-weight:bold;padding:0 0 0 4px;display:inline-block;float:left;width:535px;height:27px;border-top:1px solid #dcdcdc;border-right:none;border-bottom:1px solid #dcdcdc;border-left:1px solid #dcdcdc}
+input[type=text]:focus{outline:none;border-top:1px solid #4285f4;border-right:none;border-bottom:1px solid #4285f4;border-left:1px solid #4285f4}
+input[type=submit]{margin-right:8px;border:1px solid #dcdcdc;border-color:rgba(0,0,0,0.1);color:#444 !important;font-size:11px;background:#f5f5f5;background:-webkit-linear-gradient(top, #f5f5f5, #f1f1f1);padding:8px 10px;font-weight:bold;-webkit-border-radius:2px;border-radius:2px}
+input[type=submit]:hover{border-color:#c6c6c6;color:#222 !important;-webkit-box-shadow:0 1px 0 rgba(0,0,0,0.15);box-shadow:0 1px 0 rgba(0,0,0,0.15);background:#f8f8f8;background:-webkit-linear-gradient(top, #f8f8f8, #f1f1f1)}
+input[type=submit]:focus{outline:none}footer{background:#f2f2f2;border-top:1px solid #e4e4e4;line-height:40px;min-width:100%;bottom:0;position:absolute}footer a{margin-right:15px}footer ul{padding:0 0 0 20px}
+footer .footer-left{float:left;margin:0}
+footer .footer-right{float:right;margin:0;margin-right:20px}
+.cf:before,.cf:after{content:" ";display:table}
+.cf:after{clear:both}
+.cf{*zoom:1}
+*/
